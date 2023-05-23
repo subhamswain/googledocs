@@ -127,7 +127,7 @@ const NavBar = () => {
                                 color: "#001d35",
                                 cursor: "pointer",
                                 fontSize: "20px",
-                                color: "#404040",
+                                // color: "#404040",
                                 marginRight: "3px",
                                 padding: "0px 2px",
                             }}

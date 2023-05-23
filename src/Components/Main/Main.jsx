@@ -27,10 +27,11 @@ const toolbarOptions = [
 
 const Main = () => {
     useEffect(() => {
-        const quillServer = new Quill("#editor", {
+        new Quill("#editor", {
             theme: "snow",
             modules: { toolbar: toolbarOptions },
         });
+        // quillServer();
     }, []);
 
     return <div id="editor" className="main"></div>;
