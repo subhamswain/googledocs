@@ -4,7 +4,7 @@ import "./NavBar.css";
 import HistoryIcon from "@mui/icons-material/History";
 import CommentOutlinedIcon from "@mui/icons-material/CommentOutlined";
 import VideocamOutlinedIcon from "@mui/icons-material/VideocamOutlined";
-import PersonAddAlt1OutlinedIcon from "@mui/icons-material/PersonAddAlt1Outlined";
+// import PersonAddAlt1OutlinedIcon from "@mui/icons-material/PersonAddAlt1Outlined";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
@@ -13,13 +13,6 @@ import DriveFileMoveOutlinedIcon from "@mui/icons-material/DriveFileMoveOutlined
 import CloudDoneOutlinedIcon from "@mui/icons-material/CloudDoneOutlined";
 
 const NavBar = () => {
-    function selectText() {
-        const input = document.getElementById("heading");
-        // setSelectionRange(0, input.length);
-        // input.focus();
-        // input.select();
-    }
-
     return (
         <div>
             <nav
@@ -139,9 +132,7 @@ const NavBar = () => {
                                 padding: "0px 2px",
                             }}
                         />
-                        <span color="blue" className="write">
-                            Share
-                        </span>
+                        <span className="write">Share</span>
                     </span>
                     <AccountCircleIcon
                         sx={{
