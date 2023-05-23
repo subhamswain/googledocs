@@ -1,0 +1,56 @@
+.main {
+    width: 60%;
+    /* height: 100vh; */
+    margin: 10px auto 10px auto !important;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    /* border: 2px black solid; */
+}
+/* .ql-toolbar.ql-snow {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #f3f3f3;
+    border: none !important;
+
+} */
+
+.ql-toolbar.ql-snow {
+    display: flex;
+    position: fixed;
+    top: 58px;
+    z-index: 100;
+    background-color: #f3f3f3;
+    border: none !important;
+}
+
+/* .ql-editor {
+    box-sizing: border-box;
+    line-height: 1.42;
+    position: relative;
+    height: 100%;
+    top: 15%;
+    outline: none;
+    overflow-y: auto;
+    padding: 12px 15px;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+} */
+
+.ql-container.ql-snow {
+    border: 1px solid #ccc;
+    position: relative;
+    top: 15%;
+    /* margin-bottom: 30px !important; */
+    /* margin-bottom: 10px !important; */
+    /* margin: auto !important; */
+    /* width: 60%; */
+}
+/* .tox-toolbar-overlord .tox-toolbar__primary {
+    background-position: center top 39px;
+    background-color: yellow;
+} */
