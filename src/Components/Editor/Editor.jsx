@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Main.css";
+import "./Editor.css";
 // import { Box } from "@mui/material";
 import Quill from "quill";
 import "quill/dist/quill.snow.css";
@@ -25,16 +25,15 @@ const toolbarOptions = [
     // ["clean"], // remove formatting button
 ];
 
-const Main = () => {
+const Editor = () => {
     useEffect(() => {
         new Quill("#editor", {
             theme: "snow",
             modules: { toolbar: toolbarOptions },
         });
-        // quillServer();
     }, []);
 
     return <div id="editor" className="main"></div>;
 };
 
-export default Main;
+export default Editor;
